@@ -34,3 +34,13 @@ function randomBgColor(){
 
 
 }
+
+
+function showImg(){
+    let random = Math.floor((Math.random()*2))
+    let img = document.getElementById("img")
+    
+    random ==1? img.setAttribute("src","other.png") : img.setAttribute("src","stillLife.png")
+    img.style.display="inline"
+    
+}
